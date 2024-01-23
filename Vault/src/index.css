@@ -1,0 +1,82 @@
+/* Importing Poppins font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Resetting default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* HTML and body styles */
+html {
+  scroll-behavior: smooth;
+}
+/* Removing scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Body styles */
+body > div {
+  font-family: "Poppins", sans-serif;
+  background: #888888; /* Grey background color */
+  color: var(--color-white);
+  line-height: 1.7;
+  background-size: 3%;
+}
+
+/* Container class styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #75009f; /* Grey background color */
+}
+
+/* All h1 styles */
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* All buttons styles */
+button {
+  width: 14rem; /* Adjust button width */
+  height: 4rem; /* Adjust button height */
+  margin: 10px; /* Adjust margin */
+  border: none; /* Remove border for a cleaner look */
+  color: #000000; /* Text color */
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 9px rgba(126, 48, 48, 0.2);
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Initialize Ethereum button styles */
+#initializeButton {
+  background-color: rgb(67, 70, 223); /* Red button color */
+}
+
+/* Unlock button styles */
+#unlockButton {
+  background-color: rgb(191, 255, 0); /* Red button color */
+}
+
+/* Center buttons side by side */
+.buttons-container {
+  display: flex;
+}
+
+/* All buttons on hover styles */
+button:hover {
+  background-color: rgb(37, 212, 198); /* Vibrant color on hover */
+}
